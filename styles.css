@@ -1,0 +1,35 @@
+.izquierda {
+  background:red;
+}
+
+.medio-izquierda {
+  background:orange;
+}
+
+.medio {
+  background:blue;
+}
+
+.medio-derecha {
+  background:purple;
+}
+
+.derecha {
+  background:green;
+}
+
+h1 {
+  background:grey;
+  padding:0px 0px 0px 0px;
+}
+
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+  text-align:center;
+}
